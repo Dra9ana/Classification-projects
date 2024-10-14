@@ -29,10 +29,10 @@ Designed an innovative gesture recognition system utilizing hypothesis testing t
 # Exercise 2: Bimodal Class Classification
 
 ## Overview
-This project focuses on generating samples from two bimodal classes and implementing various classification techniques to analyze their performance. The primary goal is to evaluate different classifiers, including a Bayesian classifier, cost-sensitive classifier, Neyman-Pearson classifier, and Wald sequential test, in terms of classification error rates and theoretical performance.
+This exercise focuses on generating samples from two bimodal classes and implementing various classification techniques to analyze their performance. The primary goal is to evaluate different classifiers, including a Bayesian classifier, cost-sensitive classifier, Neyman-Pearson classifier, and Wald sequential test, in terms of classification error rates and theoretical performance.
 
 ## Problem Description
-The objective of this project is to generate 500 samples from two bimodal classes, represented as follows:
+The objective of this exercise is to generate 500 samples from two bimodal classes, represented as follows:
 
 - **Class \(\Omega_1\)**:
   - Distribution 11: \(N(M_{11}, S_{11})\) where:
@@ -77,13 +77,13 @@ The objective of this project is to generate 500 samples from two bimodal classe
    - Analyzed the relationship between error rates and the number of samples needed for accurate classification for both classes.
 
 ## Conclusion
-The project successfully demonstrates the application of various classification techniques on bimodal distributions, providing insights into their performance and error rates. The analysis and visualizations allow for a deeper understanding of the effects of different classification approaches on the overall accuracy and reliability of predictions.
+The exercise successfully demonstrates the application of various classification techniques on bimodal distributions, providing insights into their performance and error rates. The analysis and visualizations allow for a deeper understanding of the effects of different classification approaches on the overall accuracy and reliability of predictions.
 
 # Exercise 3: Classifier Design for Separable Classes
 
-## Project Overview
+## exercise Overview
 
-In this exercise, the objective was to design and implement classifiers for two-dimensional data. Specifically, the project focused on:
+In this exercise, the objective was to design and implement classifiers for two-dimensional data. Specifically, the exercise focused on:
 
 1. **Generating Two-Dimensional Shape Classes**: 
    - Creating three classes of data points that are linearly separable.
@@ -98,22 +98,32 @@ In this exercise, the objective was to design and implement classifiers for two-
    - Analyzing the impact of various elements in the desired output matrix on classifier performance.
 
 ## Achievements
-
-- Successfully generated datasets for both linearly separable and non-linearly separable classes, ensuring appropriate distances between means and controlling covariance matrices.
   
 - Designed a linear classifier utilizing an iterative procedure that accurately separated the linearly separable data, leading to a high classification accuracy.
 
 - Implemented a quadratic classifier to address the challenges presented by the non-linearly separable classes, achieving improved accuracy over the linear classifier for this dataset.
 
 - Conducted a thorough evaluation of both classifiers, presenting results through confusion matrices that provided insights into the classification performance and error rates.
+# Exercise 4: Non-linear Data Clustering
 
-- Developed visualizations to illustrate the classification results and decision boundaries, facilitating a clear understanding of how each classifier performed on the respective datasets.
+## Overview
 
-## Conclusion
+This exercise investigates the challenges and methodologies for clustering non-linearly separable data. The primary aim was to explore and implement various clustering techniques, including C-means clustering, Normal Decomposition, and Maximum Likelihood Estimation (MLE), to assess their effectiveness in grouping complex datasets.
 
-This exercise enhanced my understanding of classification techniques in machine learning, particularly in distinguishing between linear and quadratic classifiers. The successful implementation and evaluation of these classifiers demonstrated my ability to handle complex data and apply theoretical concepts to practical scenarios.
+### Objectives
 
----
+- **Data Generation**: Create synthetic datasets that reflect non-linear separability, simulating realistic clustering challenges.
+- **Clustering Techniques**: 
+  - Implement C-means clustering to evaluate its performance on non-linear data.
+  - Utilize Normal Decomposition to cluster data based on Gaussian distributions and iteratively refine the clustering process.
+  - Apply Maximum Likelihood Estimation to enhance clustering accuracy and evaluate the model's adaptability to varying data distributions.
 
-This README serves as both a project documentation and a summary of my accomplishments for inclusion in my CV, highlighting my skills in data generation, classifier design, and performance evaluation in the field of pattern recognition.
+### Achievements
+- Demonstrated the performance of C-means clustering and its limitations when dealing with complex data structures.
+- Explored the Normal Decomposition method, assessing its efficiency in clustering through various initializations and configurations.
+- Conducted an extensive analysis of clustering outcomes based on the number of clusters and initialization strategies, providing insights into the impact of these factors on clustering performance.
+- Documented the average number of iterations required for convergence across different clustering algorithms, revealing the relationship between the complexity of the data and the clustering technique's effectiveness.
 
+### Conclusion
+
+This exercise provided valuable insights into clustering methodologies for non-linear data. It highlighted the importance of choosing appropriate algorithms and initialization techniques to improve clustering outcomes. The findings contribute to a deeper understanding of data clustering challenges and set the groundwork for future work in advanced clustering techniques.
