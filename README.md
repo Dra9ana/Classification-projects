@@ -78,3 +78,42 @@ The objective of this project is to generate 500 samples from two bimodal classe
 
 ## Conclusion
 The project successfully demonstrates the application of various classification techniques on bimodal distributions, providing insights into their performance and error rates. The analysis and visualizations allow for a deeper understanding of the effects of different classification approaches on the overall accuracy and reliability of predictions.
+
+# Exercise 3: Classifier Design for Separable Classes
+
+## Project Overview
+
+In this exercise, the objective was to design and implement classifiers for two-dimensional data. Specifically, the project focused on:
+
+1. **Generating Two-Dimensional Shape Classes**: 
+   - Creating three classes of data points that are linearly separable.
+   - Generating two classes of data points that are not linearly separable, utilizing Gaussian distributions.
+
+2. **Classifier Design**:
+   - Developing a linear classifier for the linearly separable classes.
+   - Implementing a quadratic classifier for the non-linearly separable classes.
+
+3. **Evaluation of Classifiers**:
+   - Assessing the performance of both classifiers through confusion matrices.
+   - Analyzing the impact of various elements in the desired output matrix on classifier performance.
+
+## Achievements
+
+- Successfully generated datasets for both linearly separable and non-linearly separable classes, ensuring appropriate distances between means and controlling covariance matrices.
+  
+- Designed a linear classifier utilizing an iterative procedure that accurately separated the linearly separable data, leading to a high classification accuracy.
+
+- Implemented a quadratic classifier to address the challenges presented by the non-linearly separable classes, achieving improved accuracy over the linear classifier for this dataset.
+
+- Conducted a thorough evaluation of both classifiers, presenting results through confusion matrices that provided insights into the classification performance and error rates.
+
+- Developed visualizations to illustrate the classification results and decision boundaries, facilitating a clear understanding of how each classifier performed on the respective datasets.
+
+## Conclusion
+
+This exercise enhanced my understanding of classification techniques in machine learning, particularly in distinguishing between linear and quadratic classifiers. The successful implementation and evaluation of these classifiers demonstrated my ability to handle complex data and apply theoretical concepts to practical scenarios.
+
+---
+
+This README serves as both a project documentation and a summary of my accomplishments for inclusion in my CV, highlighting my skills in data generation, classifier design, and performance evaluation in the field of pattern recognition.
+
